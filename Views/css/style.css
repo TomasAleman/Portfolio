@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav{
+    background-color:rgb(23, 23, 24);
+}
+
+.nav-ul{
+    text-align: right;
+}
+
+.nav-ul li{
+    display: inline;
+}
+
+.nav-ul li a{
+    line-height: 2;
+    size: 2em;
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    padding: 0.3em 4em 0.3em;
+    margin: 0.5vw 0.5vw 0.2vw;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav-brand{
+    margin-left: 2vw;
+    margin-top: 0.15vw;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+    font-weight: bold;
+    position:absolute;
+}
+.nav-brand span{
+    color: rgb(10, 158, 207); 
+}
+
+.nav a:hover{
+    background-color: rgb(28, 162, 206);
+    color: black;
+    cursor: pointer;
+}
+
+.container{
+    background-color: black;
+}
+
+.container-div{
+    display: flex;
+}
+
+.container-div-name{
+    margin: 200px;
+    width: 40%;
+    display: flex;
+    color:rgb(255, 255, 255);
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.container-div-name span{
+    color:rgb(28, 162, 206);
+}
+
+.container-div-description{
+    margin: 200px;
+    color: white;
+    display: flex;
+    font-size: 200%;
+}
